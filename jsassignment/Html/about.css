@@ -1,0 +1,39 @@
+h1 {
+    border-bottom:2px solid rgb(255, 255, 255);
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display:block;
+    /* right: 10px; margin-left: 0px; width: 25%; height: 30px;  right: 30px    ; */
+    right: 1px;left: 1px;margin-left: 260px; margin-right: 300px;
+    text-align: left;
+}
+h3{
+    grid-area: h;
+    text-align: left;
+}
+p{
+    grid-area: p;
+    display: block; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 25%;
+}
+.interests{
+    display: grid;
+    grid-template-areas: 
+        ". h h ."
+        ". p p ." ;
+    grid-template-columns: repeat(5, 1fr);
+    text-justify: inter-word;
+     
+}
+.education{
+    display: grid;
+    grid-template-areas: 
+        ". h h ."
+        ". p p ." ;
+    grid-template-columns: repeat(5, 1fr);
+    text-justify: inter-word;
+     
+}
